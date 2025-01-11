@@ -201,9 +201,21 @@
 /* Button styles */
 .btn :hover{
   background-color: rgba(198, 228, 214, 1);
+  color: #0E0E0E;
 }
-.one :hover{
-  background-color: #285db9;
+
+.effect :hover{
+  background-color: #2d5e43;
+  color: #ffffff;
+}
+.btn-one :hover{
+  background-color: rgb(45, 93, 182)
+}
+.btn-two :hover{
+  background-color: rgb(10, 70, 10);
+}
+.btn-third :hover{
+  background-color: rgb(105, 105, 17);
 }
 .btn-first{
   font-size: 12px;
@@ -282,7 +294,6 @@
 /* News styles */
 .Satellite{
   display: flex;
-  /* justify-content: space-between; */
   align-items: center;
   background-color:rgb(255, 255, 255);
   border-radius: 18px;
@@ -304,9 +315,6 @@
   display: flex;
   background-color:rgb(255, 255, 255);
   border-radius: 18px;
-  /* margin-top: 5px;
-  margin-bottom: 5px; */
-  /* padding: 40px; */
   padding: 30px 30px 30px 20px;
   margin: 50px 35px 32px 20px;
 }
@@ -366,11 +374,10 @@ input[type="text"]{
   text-align: center;
 }
 input[type="e-mail"]{
-  /* text-align: left; */
   color: rgba(14, 14, 14, 0.3);
   font-size: 18px;
   font-weight: 400;
-  border-radius: 6px;
+  border-radius: 8px 0 0 8px;
   border: none;
   display: block;
   height: 30px;
@@ -405,19 +412,29 @@ input[type="e-mail"]{
     margin-bottom: 20px;
 }
 .enter{
-  display: inline-flex;
+  display: flex;
+}
+.merge{
+  font-size: 14px;
+  font-weight: 550;
+  color: #ffffff;
+  background-color: #006A50;
+  border-radius: 0px 8px 8px 0px;
+  padding: 16px 30px 16px 30px;
+  margin-bottom: 50px;
+  margin-top: 0px;
+  border: 1px solid #006A50;
+  cursor: pointer;
 }
 footer{
   text-align: center;
   background-color: #ffffff;
-  /* margin: 50px 160px 50px 160px; */
-  /* padding: 25px 160px 25px 160px; */
+  width: 100%;
 }
 footer div{
   display: flex;
   justify-content: center;
   gap: 12px;
-  text-decoration: none;
   margin-top: 28px;
 }
 footer h3{
