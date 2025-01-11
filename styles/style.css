@@ -52,6 +52,9 @@
     font-style: normal;
   }
 
+  body{
+    background-color: rgb(245, 245, 245);
+  }
   header{
     justify-content: space-between;
     margin: 0 auto;
@@ -177,16 +180,16 @@
 .head{
   color: rgba(14, 14, 14, 0.8);
   font-weight: bold;
-  font-size: 15px;
+  font-size: 18px;
   margin-bottom: 0px;
 }
 .explanation{
   color: rgba(14, 14, 14, 0.7);
   font-weight: 400;
   font-size: 14px;
-  margin-top: 12px;
+  margin-top: 10px;
 } 
-.body{
+.Body{
   color: rgba(14, 14, 14, 0.7);
     font-size: 14px;
     font-weight: normal;
@@ -249,16 +252,136 @@
 
 /* Quote style */
 .quote-content{
-  margin-top: 30px;
+  margin-top: 20px;
   background-image: url(../assets/quote-bg.png);
   background-repeat: no-repeat;
   background-position: top left;
   background-color: #ffffff;
-  padding-top: 12px;
+  padding-top: 24px;
 }
 .quote{
+  background-color: #ffffff;
   border: 1px solid rgba(14, 14, 14, 0.15);
   border-radius: 12px;
-  padding: 10px 16px 26px 16px ;
+  padding: 0px 24px 16px 24px ;
   margin-top: 24px;
+}
+.News{
+  text-align: left;
+      margin: 60px 130px 60px 130px;
+}
+
+/* News styles */
+.Satellite{
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  background-color:rgb(255, 255, 255);
+  border-radius: 18px;
+  margin-top: 20px;
+  padding: 40px;
+}
+.Satellite-content{
+  padding: 30px 30px 30px 20px;
+}
+.Satellite-pic{
+  border: none;
+  border-radius: 24px;
+  margin: 32px 35px 32px 30px;
+}
+.Head-title{
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.Date{
+  display: flex;
+  margin-bottom: 0px;
+}
+.Day{
+  margin-right: 8px;
+}
+
+/* Donation section styles */
+.Donation{
+  margin: 40px 130px 40px 130px;
+}
+.buttons{
+  justify-content: center;
+  display: flex;
+  gap: 20px;
+}
+#Massage{
+  text-align: center;
+}
+input[type="text"]{
+ text-align: center;
+ color: rgba(14, 14, 14, 0.3);
+ font-size: 18px;
+ font-weight: 400;
+ border-radius: 5px;
+ border: none;
+ display: block;
+ height: 40px;
+ width: 870px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ margin: 0 auto;
+}
+.donation{
+  padding: 35px;
+  font-size: 35px;
+  font-weight: bold;
+  color: rgba(14, 14, 14, 0.8);
+  border-radius: 11px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background-color: #ffffff;
+  margin-bottom: 24px;
+  margin-top: 22px;
+}
+.Send{
+  text-align: center;
+}
+input[type="e-mail"]{
+  /* text-align: left; */
+  color: rgba(14, 14, 14, 0.3);
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 6px;
+  border: none;
+  display: block;
+  height: 30px;
+  width: 500px;
+  padding-left: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0 auto;
+}
+.subscribe{
+  display: flex;
+}
+.Newsletter{
+  text-align: center;
+  justify-content: center;
+  background-color: rgba(198, 228, 214, 1);
+  border-radius: 12px;
+  margin: 40px 130px 40px 130px;
+  padding: 40px 240px 40px 240px;
+}
+#news-heading{
+  color: rgba(14, 14, 14, 1);
+  font-weight: bold;
+  font-size: 35px;
+  margin-bottom: 20px;
+  padding-top: 40px;
+}
+.news-about{
+  color: rgba(14, 14, 14, 0.7);
+    font-size: 12px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.enter{
+  display: inline-flex;
 }
