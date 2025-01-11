@@ -97,6 +97,7 @@
     border-radius: 8px;
     border-color: #006A50;
     border: 1px solid #006A50;
+    cursor: pointer;
   }
   .btn-primary{
     font-size: 14px;
@@ -108,6 +109,7 @@
     margin-bottom: 50px;
     margin-top: 0px;
     border: 1px solid #006A50;
+    cursor: pointer;
   }
 
   .Bangladesh{
@@ -197,6 +199,12 @@
 }
 
 /* Button styles */
+.btn :hover{
+  background-color: rgba(198, 228, 214, 1);
+}
+.one :hover{
+  background-color: #285db9;
+}
 .btn-first{
   font-size: 12px;
   font-weight: 600;
@@ -278,8 +286,10 @@
   align-items: center;
   background-color:rgb(255, 255, 255);
   border-radius: 18px;
-  margin-top: 20px;
-  padding: 40px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 35px;
+  padding-right: 50px;
 }
 .Satellite-content{
   padding: 30px 30px 30px 20px;
@@ -287,13 +297,25 @@
 .Satellite-pic{
   border: none;
   border-radius: 24px;
-  margin: 32px 35px 32px 30px;
+  margin: 40px 25px 25px 35px;
+  width: 376px; ;
+}
+.mirror-satellite{
+  display: flex;
+  background-color:rgb(255, 255, 255);
+  border-radius: 18px;
+  /* margin-top: 5px;
+  margin-bottom: 5px; */
+  /* padding: 40px; */
+  padding: 30px 30px 30px 20px;
+  margin: 50px 35px 32px 20px;
 }
 .Head-title{
   color: rgba(14, 14, 14, 0.8);
   font-size: 28px;
   font-weight: bold;
   margin-bottom: 8px;
+  margin-top: 30px;
 }
 .Date{
   display: flex;
@@ -384,4 +406,28 @@ input[type="e-mail"]{
 }
 .enter{
   display: inline-flex;
+}
+footer{
+  text-align: center;
+  background-color: #ffffff;
+  /* margin: 50px 160px 50px 160px; */
+  /* padding: 25px 160px 25px 160px; */
+}
+footer div{
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  text-decoration: none;
+  margin-top: 28px;
+}
+footer h3{
+  color: #0E0E0E;
+  font-weight: bold;
+  font-size: 28px;
+  padding-top: 25px;
+} 
+hr{
+  width: 880px;
+  background-color: rgba(167, 92, 92, 0.548);
+  border: 1px 1 px solid rgba(14, 14, 14, 0.1);
 }
