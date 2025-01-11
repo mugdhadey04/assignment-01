@@ -85,6 +85,8 @@
     font-size: 28px;
     max-width: 1160px;
   }
+
+  /* Button styles */
   nav button{
     color: #006A50;
     background: none;
@@ -104,6 +106,7 @@
     margin-top: 0px;
     border: 1px solid #006A50;
   }
+
   .Bangladesh{
     max-width: 1160px;
     display: flex;
@@ -120,5 +123,142 @@
 .hero-picture{
     padding-right: 65px;
     max-width: 1160px;
-
 }
+/* main section styles */
+
+.Pillars{
+    text-align: left;
+    margin: 40px 130px 40px 130px;
+}
+.content{
+    display: flex;
+    gap: 18px;
+    padding-top: 19px;
+}
+.name{
+    text-align: left;
+    background-color: #ffffff;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 15px;
+    padding: 17px;
+}
+.heading{
+    color: rgba(14, 14, 14, 1);
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 0px;
+}
+.title{
+    color: rgba(14, 14, 14, 0.8);
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+.description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 12px;
+    font-weight: normal;
+}
+.card-pic{
+    height: 55px;
+    width: 55px;
+}
+/* Second section */
+.Vision{
+    text-align: left;
+        margin: 60px 130px 60px 130px;
+}
+.vision-of-future{
+  display: flex;
+  gap: 18px;
+  margin-top: 26px;
+  margin-bottom: 0px;
+}
+.head{
+  color: rgba(14, 14, 14, 0.8);
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+.explanation{
+  color: rgba(14, 14, 14, 0.7);
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 12px;
+} 
+.body{
+  color: rgba(14, 14, 14, 0.7);
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 20px;
+}
+
+/* Button styles */
+.btn-first{
+  font-size: 12px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #5490F5;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px 10px 16px;
+  margin-top: 16px;
+  cursor: pointer;
+}
+.btn-second{
+  font-size: 12px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #09A15C;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px 10px 16px;
+  margin-top: 16px;
+  cursor: pointer;
+}
+.btn-last{
+  font-size: 12px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #FFC239;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px 10px 16px;
+  margin-top: 16px;
+  cursor: pointer;
+}
+.digital{
+  background-color: rgba(84, 144, 245, 0.2);
+  padding: 26px;
+  border: none;
+  border-radius: 12px;
+  
+}
+.green{
+  background-color: rgba(198, 228, 214, 1);
+  padding: 26px;
+  border: none;
+  border-radius: 12px;
+}
+.modern{
+  background-color: rgba(247, 235, 207, 1);
+  padding: 26px;
+  border: none;
+  border-radius: 12px;
+}
+
+/* Quote style */
+.quote-content{
+  margin-top: 30px;
+  background-image: url(../assets/quote-bg.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-color: #ffffff;
+  padding-top: 12px;
+}
+/* .quote{
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 12px;
+  padding: 12px 18px 32px 18px ;
+  margin-top: 24px;
+} */
